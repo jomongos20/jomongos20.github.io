@@ -1,0 +1,91 @@
+body {
+    background-color: #27884c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+#banner {
+    background-color: #dacfac;
+    color: #000000;
+    font-style: italic;
+    padding: 30px;
+    background-image: url("https://media.istockphoto.com/id/1347991549/photo/office-desk-with-computer-pen-notebook-cup-of-coffee-on-blue-background.jpg?s=612x612&w=0&k=20&c=HljvFBjgDfYwUyMiH_V7UtnDcVG8U7T24tng7IHgfIU=");
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 165px;
+    float : left; 
+    background-color: #a1a032;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#menulist li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #e6eeee;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+ 
+#section-about p {
+    text-align: justify;
+    text-align: center;
+}
+ 
+ 
+ 
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.serviceitem {
+    width : 30%;
+    float : left; 
+    background-color: #9bd8b2;
+    list-style-type: disc;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+    text-decoration: none;
+}
+ 
+#resumelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.resumeitem {
+    width : 30%;
+    float : left; 
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: left;
+    cursor:pointer;
+}
